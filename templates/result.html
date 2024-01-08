@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Parallax Effect Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Your Parallax GIF</h1>
+    <img src="{{ url_for('static', filename=gif_path) }}" alt="Parallax GIF">
+    <a href="/">Try another image</a>
+</body>
+</html>
